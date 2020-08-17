@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaTurbine" />
         <module name="eurekaClient" />
-        <module name="eurekaServer" />
-        <module name="eurekaFeign" />
+        <module name="zuul" />
         <module name="HystrixDashboard" />
+        <module name="eurekaFeign" />
+        <module name="eurekaTurbine" />
+        <module name="eurekaServer" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="eurekaServer" options="-parameters" />
       <module name="eurekaTurbine" options="-parameters" />
       <module name="eurekademo" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

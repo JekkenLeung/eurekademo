@@ -14,6 +14,7 @@
         <module>eurekaFeign</module>
         <module>HystrixDashboard</module>
         <module>eurekaTurbine</module>
+        <module>zuul</module>
     </modules>
 
     <parent>
