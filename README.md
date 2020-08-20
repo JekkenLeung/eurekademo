@@ -13,3 +13,6 @@
  <br>http://localhost:8768/sayService/hello
  <br>http://localhost:8768/actuator/routes
  <br>http://localhost:8768/actuator/routes/details
+ 
+ - admin-server: 8769
+ - admin-client: 8770

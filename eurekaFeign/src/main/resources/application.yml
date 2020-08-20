@@ -16,3 +16,7 @@ management:
       exposure:
         include:
           - hystrix.stream
+          - '*'
+  endpoint:
+    health:
+      show-details: always
