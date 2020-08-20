@@ -31,4 +31,20 @@ management:
       exposure:
         include:
           - routes
+jwt:
+  tokenHeader: Authorization
+  secret: 823923
+  expiration: 86400
+  tokenHead: Bearer
+  refreshTime: 60
+secure:
+  ignored:
+    urls: #安全路径白名单
+      - /admin/login
+      - /view/all
+      - /swagger-ui.html
+      - /webjars/**
+      - /swagger-resources/**
+      - /error
+      - /fignService/say
 
